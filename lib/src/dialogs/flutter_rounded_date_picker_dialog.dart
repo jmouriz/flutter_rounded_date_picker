@@ -299,7 +299,8 @@ class _FlutterRoundedDatePickerDialogState
                 children: <Widget>[
                   header,
                   if (widget.height == null)
-                    Flexible(child: picker)
+                    //Flexible(child: picker)
+                    picker
                   else
                     SizedBox(
                       height: widget.height,
